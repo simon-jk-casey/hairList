@@ -1,9 +1,29 @@
+@font-face {
+    font-family: 'sonder_script_3regular';
+    src: url('fenotype_-_sonderscript3.woff2') format('woff2'),
+         url('fenotype_-_sonderscript3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aileronthin';
+    src: url('Aileron-Thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.listWrapper {
+  display: flex;
+  flex-direction: row;
+}
 .leftSpacer {
-  width: 25%;
+  width: 20%;
 }
 
 .rightSpacer {
-  width: 25%;
+  width: 20%;
 }
 
 .listSpacer {
@@ -16,31 +36,45 @@
 }
 
 .cat {
-
+  text-align: left;
 }
 
 .price {
-
+  text-align: right;
 }
 
 .notes {
 
 }
 
+.plHeader {
+  border-bottom: solid pink;
+  /*margin-bottom: 5%;*/
+}
+
 span {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 h1 {
-
+ font-family: 'sonder_script_3regular';
+ font-size: 3em;
+ letter-spacing: 2px;
 }
 
 h2 {
-
+  font-family: 'sonder_script_3regular';
+  font-size: 2em;
+  letter-spacing: 2px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 ul {
   list-style: none;
+  padding-left: 0;
+  font-family: 'aileronthin';
+}
+
+li {
+  padding: none;
 }

@@ -92,18 +92,20 @@ export default class Pricelist extends Component {
       }
     ]
     return (
-      <div>
+      <div className='listWrapper'>
         <div className='leftSpacer' />
         <div className='listCont'>
-          <h1>Price List</h1>
+          <div className='plHeader'>
+            <h1>Price List</h1>
+          </div>
           <h2>Cuts and Style</h2>
           <ul>
             {cutsStyles.map((cut, i) => {
               return (
-                <span key={i}>
+                <div key={i}>
                   <li key={i + 'a'} className='cat'><h4>{cut.cat}</h4></li>
                   <li key={i + 'b'} className='price'>{cut.price}</li>
-                </span>
+                </div>
               )
             })}
           </ul>
