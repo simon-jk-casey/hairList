@@ -27,11 +27,11 @@
 }
 
 .listSpacer {
-
+  margin-bottom: 7%;
 }
 
 .listCont {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -41,24 +41,25 @@
 
 .price {
   text-align: right;
+  margin-top: 0;
 }
 
 .notes {
-
+  font-family: 'aileronthin';
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 2%;
 }
 
 .plHeader {
   border-bottom: solid pink;
-  /*margin-bottom: 5%;*/
-}
-
-span {
 }
 
 h1 {
  font-family: 'sonder_script_3regular';
  font-size: 3em;
  letter-spacing: 2px;
+ margin-bottom: 2%;
 }
 
 h2 {
@@ -69,12 +70,13 @@ h2 {
   margin-bottom: 5%;
 }
 
+h4 {
+  margin-bottom: 2.5%;
+}
+
 ul {
   list-style: none;
   padding-left: 0;
   font-family: 'aileronthin';
-}
-
-li {
-  padding: none;
+  font-size: 1.15em;
 }

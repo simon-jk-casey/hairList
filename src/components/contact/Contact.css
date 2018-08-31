@@ -1,0 +1,19 @@
+.logoContainer {
+  background-color: pink;
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+.instaLogo {
+  margin-top: 4px;
+  height: 40px;
+  width: 40px;
+}
+
+.contactComponent {
+  font-family: 'aileronthin';
+  font-weight: bold;
+  font-size: 1.15em;
+}
