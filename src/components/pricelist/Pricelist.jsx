@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Pricelist.css'
 
 export default class Pricelist extends Component {
   render () {
@@ -94,7 +95,7 @@ export default class Pricelist extends Component {
       <div>
         <div className='leftSpacer' />
         <div className='listCont'>
-          <h1 id='test'>Price List</h1>
+          <h1>Price List</h1>
           <h2>Cuts and Style</h2>
           <ul>
             {cutsStyles.map((cut, i) => {

@@ -1,0 +1,46 @@
+.leftSpacer {
+  width: 25%;
+}
+
+.rightSpacer {
+  width: 25%;
+}
+
+.listSpacer {
+
+}
+
+.listCont {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cat {
+
+}
+
+.price {
+
+}
+
+.notes {
+
+}
+
+span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+ul {
+  list-style: none;
+}
