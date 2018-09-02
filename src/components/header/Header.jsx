@@ -6,7 +6,7 @@ export default class Header extends Component {
     const imgsrc = require('../../images/hwavlogo.jpg')
     return (
       <div className='banner'>
-        <img className='logo' src={imgsrc} alt='' />
+        <img id='hwavLogo' className='logo' src={imgsrc} alt='' />
       </div>
     )
   }
