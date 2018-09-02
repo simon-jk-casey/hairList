@@ -23,7 +23,7 @@ export default class Contact extends Component {
             <a href='sms:+640274657856'>0274657856</a>
           </div>
           <div className='socials'>
-            <p>Check us out on Instgram!</p>
+            <p>Check out my Instagram!</p>
             <a href='https://www.instagram.com/hair_by_alana1/' target='_blank' rel='noopener noreferrer'><div className='logoContainer'><img className='instaLogo' src={instagramLogo} alt='instagram' /></div></a>
           </div>
         </div>

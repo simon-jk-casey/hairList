@@ -1,0 +1,33 @@
+.navBar {
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.button {
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: white;
+  padding: 10px;
+  text-align: center;
+  font-family: 'aileronthin';
+  border: double pink;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0.25%;
+}
+
+.buttonLabel {
+  margin-top: 3%;
+}
+
+#plButt {
+  margin-right: 2.5%;
+}
+
+#contButt {
+  margin-left: 2.5%;
+}

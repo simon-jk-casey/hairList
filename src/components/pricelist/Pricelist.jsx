@@ -88,7 +88,7 @@ export default class Pricelist extends Component {
       },
       {
         cat: 'Olaplex',
-        price: '$20.00'
+        price: '$30.00'
       }
     ]
     return (
