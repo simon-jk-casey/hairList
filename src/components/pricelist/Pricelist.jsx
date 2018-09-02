@@ -94,7 +94,7 @@ export default class Pricelist extends Component {
     return (
       <div className='listWrapper'>
         <div className='leftSpacer' />
-        <div className='listCont'>
+        <div id='plCont' className='listCont'>
           <div className='plHeader'>
             <h1>Price List</h1>
           </div>

@@ -14,6 +14,26 @@
 
 }
 
+@media screen and (max-width: 500px) {
+  .leftSpacer {
+    display: none;
+  }
+  .rightSpacer {
+    display: none;
+  }
+  #plCont {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #contCont {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+}
+
 .listWrapper {
   display: flex;
   flex-direction: row;
@@ -21,7 +41,6 @@
 .leftSpacer {
   width: 20%;
 }
-
 .rightSpacer {
   width: 20%;
 }
