@@ -110,7 +110,7 @@ export default class Pricelist extends Component {
             })}
           </ul>
           <div className='listSpacer' />
-          <h2 className='plCatTitle'>Colours</h2>
+          <h2 className='plCatTitle' >Colours</h2>
           <ul>
             {colours.map((colour, i) => {
               return (
